@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>SUP Great Glen Day 1 (With Portages) V2</name>
+        <desc></desc>
+        <bounds minlat="56.8482569" minlon="-5.0910976" maxlat="57.1449729" maxlon="-4.6805481"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="56.8482569" lon="-5.0910976" type="start"/>
+            <os:point lat="57.1449729" lon="-4.6805481" type="end"/>
+            <os:activity>OTHER_PADDLING</os:activity>
+            <os:difficulty>DIFFICULT</os:difficulty>
+            <os:paths/>
+            <os:distance>43145.7434843</os:distance>
+            <os:elevation_ascent>8.8500000</os:elevation_ascent>
+        </extensions>
+    </metadata>
+    <wpt lat="56.8482569" lon="-5.0910976"/>
+    <wpt lat="56.8498932" lon="-5.0876355"/>
+    <wpt lat="56.8512400" lon="-5.0862209"/>
+    <wpt lat="56.8530627" lon="-5.0776499"/>
+    <wpt lat="56.8539551" lon="-5.0753253"/>
+    <wpt lat="56.8564739" lon="-5.0747449"/>
+    <wpt lat="56.8582599" lon="-5.0748379"/>
+    <wpt lat="56.8604334" lon="-5.0725098"/>
+    <wpt lat="56.8628662" lon="-5.0693308"/>
+    <wpt lat="56.8655493" lon="-5.0680806"/>
+    <wpt lat="56.8666746" lon="-5.0649281"/>
+    <wpt lat="56.8672908" lon="-5.0641066"/>
+    <wpt lat="56.8690219" lon="-5.0627773"/>
+    <wpt lat="56.8699744" lon="-5.0616019"/>
+    <wpt lat="56.8708257" lon="-5.0609088"/>
+    <wpt lat="56.8726879" lon="-5.0602990"/>
+    <wpt lat="56.8763555" lon="-5.0551346"/>
+    <wpt lat="56.8797317" lon="-5.0486522"/>
+    <wpt lat="56.8813201" lon="-5.0470383"/>
+    <wpt lat="56.8838129" lon="-5.0425550"/>
+    <wpt lat="56.8851351" lon="-5.0408647"/>
+    <wpt lat="56.8862508" lon="-5.0403022"/>
+    <wpt lat="56.8897868" lon="-5.0406108"/>
+    <wpt lat="56.8909170" lon="-5.0394496"/>
+    <wpt lat="56.8916848" lon="-5.0372774"/>
+    <wpt lat="56.8924184" lon="-5.0340667"/>
+    <wpt lat="56.8934735" lon="-5.0311003"/>
+    <wpt lat="56.8969758" lon="-5.0242459"/>
+    <wpt lat="56.8979607" lon="-5.0217100"/>
+    <wpt lat="56.8992865" lon="-5.0168494"/>
+    <wpt lat="56.9002511" lon="-5.0151287"/>
+    <wpt lat="56.9032747" lon="-5.0131937"/>
+    <wpt lat="56.9044306" lon="-5.0109434"/>
+    <wpt lat="56.9062260" lon="-5.0080909"/>
+    <wpt lat="56.9077382" lon="-5.0058696"/>
+    <wpt lat="56.9098200" lon="-5.0034765"/>
+    <wpt lat="56.9118267" lon="-5.0002682"/>
+    <wpt lat="56.9140760" lon="-4.9947710">
+        <name>Portage::Gairlochy::350m</name>
+        <desc></desc>
+    </wpt>
+    <wpt lat="56.9145760" lon="-4.9932340"/>
+    <wpt lat="56.9151940" lon="-4.9904250"/>
+    <wpt lat="56.9162510" lon="-4.9895599"/>
+    <wpt lat="56.9176990" lon="-4.9878480">
+        <name>Loch Lochy Starts</name>
+        <desc></desc>
+    </wpt>
+    <wpt lat="56.9212283" lon="-4.9788161"/>
+    <wpt lat="56.9263730" lon="-4.9701795"/>
+    <wpt lat="56.9339647" lon="-4.9586865"/>
+    <wpt lat="56.9398425" lon="-4.9490817"/>
+    <wpt lat="56.9454737" lon="-4.9373200"/>
+    <wpt lat="56.9537331" lon="-4.9250047"/>
+    <wpt lat="56.9735857" lon="-4.8912221"/>
+    <wpt lat="56.9802460" lon="-4.8833525"/>
+    <wpt lat="56.9917552" lon="-4.8672264"/>
+    <wpt lat="56.9989509" lon="-4.8565610"/>
+    <wpt lat="57.0060429" lon="-4.8477409"/>
+    <wpt lat="57.0128947" lon="-4.8378673"/>
+    <wpt lat="57.0167965" lon="-4.8333731"/>
+    <wpt lat="57.0197360" lon="-4.8286710">
+        <name>Loch Lochy Ends: Land left of Canal</name>
+        <desc></desc>
+    </wpt>
+    <wpt lat="57.0249320" lon="-4.8280150"/>
+    <wpt lat="57.0261940" lon="-4.8262910">
+        <name>Portage::Laggan::250m</name>
+        <desc></desc>
+    </wpt>
+    <wpt lat="57.0263940" lon="-4.8255620"/>
+    <wpt lat="57.0270850" lon="-4.8249510"/>
+    <wpt lat="57.0332809" lon="-4.8210234"/>
+    <wpt lat="57.0346999" lon="-4.8186251"/>
+    <wpt lat="57.0399337" lon="-4.8075810"/>
+    <wpt lat="57.0432863" lon="-4.8062037"/>
+    <wpt lat="57.0446800" lon="-4.8038520">
+        <name>Loch Oich Starts</name>
+        <desc></desc>
+    </wpt>
+    <wpt lat="57.0582565" lon="-4.7838106"/>
+    <wpt lat="57.0638622" lon="-4.7770426"/>
+    <wpt lat="57.0710550" lon="-4.7666640"/>
+    <wpt lat="57.0721484" lon="-4.7654627"/>
+    <wpt lat="57.0759908" lon="-4.7595379"/>
+    <wpt lat="57.0780248" lon="-4.7571907"/>
+    <wpt lat="57.0820467" lon="-4.7513311"/>
+    <wpt lat="57.0844907" lon="-4.7483818"/>
+    <wpt lat="57.0866537" lon="-4.7473965"/>
+    <wpt lat="57.0907510" lon="-4.7463880">
+        <name>Loch Oich Ends: Stay Right</name>
+        <desc></desc>
+    </wpt>
+    <wpt lat="57.0931180" lon="-4.7434460"/>
+    <wpt lat="57.0972149" lon="-4.7397576"/>
+    <wpt lat="57.0976000" lon="-4.7397030">
+        <name>Portage::Cullochy::200m</name>
+        <desc></desc>
+    </wpt>
+    <wpt lat="57.0990030" lon="-4.7398980"/>
+    <wpt lat="57.0990220" lon="-4.7397030"/>
+    <wpt lat="57.0999159" lon="-4.7396939"/>
+    <wpt lat="57.1049491" lon="-4.7403331"/>
+    <wpt lat="57.1067757" lon="-4.7407926"/>
+    <wpt lat="57.1081826" lon="-4.7407208"/>
+    <wpt lat="57.1120612" lon="-4.7386275"/>
+    <wpt lat="57.1133087" lon="-4.7384988"/>
+    <wpt lat="57.1154916" lon="-4.7372496"/>
+    <wpt lat="57.1164682" lon="-4.7356755"/>
+    <wpt lat="57.1174098" lon="-4.7335106"/>
+    <wpt lat="57.1184925" lon="-4.7300034"/>
+    <wpt lat="57.1191964" lon="-4.7284678"/>
+    <wpt lat="57.1220790" lon="-4.7233850">
+        <name>Portage::Kytra::200m</name>
+        <desc></desc>
+    </wpt>
+    <wpt lat="57.1230940" lon="-4.7217700"/>
+    <wpt lat="57.1229990" lon="-4.7216100"/>
+    <wpt lat="57.1244214" lon="-4.7184159"/>
+    <wpt lat="57.1249781" lon="-4.7163103"/>
+    <wpt lat="57.1254457" lon="-4.7102282"/>
+    <wpt lat="57.1260373" lon="-4.7083697"/>
+    <wpt lat="57.1267009" lon="-4.7072129"/>
+    <wpt lat="57.1331595" lon="-4.7000811"/>
+    <wpt lat="57.1381096" lon="-4.6977098"/>
+    <wpt lat="57.1398802" lon="-4.6962507"/>
+    <wpt lat="57.1420847" lon="-4.6939127"/>
+    <wpt lat="57.1434912" lon="-4.6919396"/>
+    <wpt lat="57.1442892" lon="-4.6897043"/>
+    <wpt lat="57.1442560" lon="-4.6869350">
+        <name>Finish::Fort Augustus</name>
+        <desc></desc>
+    </wpt>
+    <wpt lat="57.1449729" lon="-4.6805481"/>
+    <trk>
+        <name>SUP Great Glen Day 1 (With Portages) V2</name>
+        <trkseg>
+            <trkpt lat="56.8482569" lon="-5.0910976"/>
+            <trkpt lat="56.8498932" lon="-5.0876355"/>
+            <trkpt lat="56.8512400" lon="-5.0862209"/>
+            <trkpt lat="56.8530627" lon="-5.0776499"/>
+            <trkpt lat="56.8539551" lon="-5.0753253"/>
+            <trkpt lat="56.8564739" lon="-5.0747449"/>
+            <trkpt lat="56.8582599" lon="-5.0748379"/>
+            <trkpt lat="56.8604334" lon="-5.0725098"/>
+            <trkpt lat="56.8628662" lon="-5.0693308"/>
+            <trkpt lat="56.8636218" lon="-5.0689026"/>
+            <trkpt lat="56.8655493" lon="-5.0680806"/>
+            <trkpt lat="56.8661600" lon="-5.0664666"/>
+            <trkpt lat="56.8666746" lon="-5.0649281"/>
+            <trkpt lat="56.8672908" lon="-5.0641066"/>
+            <trkpt lat="56.8681705" lon="-5.0634703"/>
+            <trkpt lat="56.8690219" lon="-5.0627773"/>
+            <trkpt lat="56.8699744" lon="-5.0616019"/>
+            <trkpt lat="56.8708257" lon="-5.0609088"/>
+            <trkpt lat="56.8726879" lon="-5.0602990"/>
+            <trkpt lat="56.8741713" lon="-5.0581316"/>
+            <trkpt lat="56.8749427" lon="-5.0570503"/>
+            <trkpt lat="56.8763555" lon="-5.0551346"/>
+            <trkpt lat="56.8773291" lon="-5.0530885"/>
+            <trkpt lat="56.8786094" lon="-5.0506861"/>
+            <trkpt lat="56.8797317" lon="-5.0486522"/>
+            <trkpt lat="56.8813201" lon="-5.0470383"/>
+            <trkpt lat="56.8824680" lon="-5.0451702"/>
+            <trkpt lat="56.8838129" lon="-5.0425550"/>
+            <trkpt lat="56.8851351" lon="-5.0408647"/>
+            <trkpt lat="56.8862508" lon="-5.0403022"/>
+            <trkpt lat="56.8879456" lon="-5.0404054"/>
+            <trkpt lat="56.8897868" lon="-5.0406108"/>
+            <trkpt lat="56.8909170" lon="-5.0394496"/>
+            <trkpt lat="56.8916848" lon="-5.0372774"/>
+            <trkpt lat="56.8924184" lon="-5.0340667"/>
+            <trkpt lat="56.8934735" lon="-5.0311003"/>
+            <trkpt lat="56.8959097" lon="-5.0264482"/>
+            <trkpt lat="56.8969758" lon="-5.0242459"/>
+            <trkpt lat="56.8979607" lon="-5.0217100"/>
+            <trkpt lat="56.8985904" lon="-5.0190904"/>
+            <trkpt lat="56.8992865" lon="-5.0168494"/>
+            <trkpt lat="56.9002511" lon="-5.0151287"/>
+            <trkpt lat="56.9016078" lon="-5.0144212"/>
+            <trkpt lat="56.9032747" lon="-5.0131937"/>
+            <trkpt lat="56.9044306" lon="-5.0109434"/>
+            <trkpt lat="56.9062260" lon="-5.0080909"/>
+            <trkpt lat="56.9077382" lon="-5.0058696"/>
+            <trkpt lat="56.9098200" lon="-5.0034765"/>
+            <trkpt lat="56.9106886" lon="-5.0020207"/>
+            <trkpt lat="56.9118267" lon="-5.0002682"/>
+            <trkpt lat="56.9140760" lon="-4.9947710"/>
+            <trkpt lat="56.9145760" lon="-4.9932340"/>
+            <trkpt lat="56.9151940" lon="-4.9904250"/>
+            <trkpt lat="56.9155871" lon="-4.9899423"/>
+            <trkpt lat="56.9162510" lon="-4.9895599"/>
+            <trkpt lat="56.9176990" lon="-4.9878480"/>
+            <trkpt lat="56.9212283" lon="-4.9788161"/>
+            <trkpt lat="56.9263730" lon="-4.9701795"/>
+            <trkpt lat="56.9339647" lon="-4.9586865"/>
+            <trkpt lat="56.9398425" lon="-4.9490817"/>
+            <trkpt lat="56.9454737" lon="-4.9373200"/>
+            <trkpt lat="56.9537331" lon="-4.9250047"/>
+            <trkpt lat="56.9648010" lon="-4.9060107"/>
+            <trkpt lat="56.9735857" lon="-4.8912221"/>
+            <trkpt lat="56.9802460" lon="-4.8833525"/>
+            <trkpt lat="56.9917552" lon="-4.8672264"/>
+            <trkpt lat="56.9989509" lon="-4.8565610"/>
+            <trkpt lat="57.0060429" lon="-4.8477409"/>
+            <trkpt lat="57.0128947" lon="-4.8378673"/>
+            <trkpt lat="57.0167965" lon="-4.8333731"/>
+            <trkpt lat="57.0197360" lon="-4.8286710"/>
+            <trkpt lat="57.0249320" lon="-4.8280150"/>
+            <trkpt lat="57.0261940" lon="-4.8262910"/>
+            <trkpt lat="57.0263430" lon="-4.8258480"/>
+            <trkpt lat="57.0263940" lon="-4.8255620"/>
+            <trkpt lat="57.0271100" lon="-4.8251080"/>
+            <trkpt lat="57.0270850" lon="-4.8249510"/>
+            <trkpt lat="57.0332809" lon="-4.8210234"/>
+            <trkpt lat="57.0346999" lon="-4.8186251"/>
+            <trkpt lat="57.0399337" lon="-4.8075810"/>
+            <trkpt lat="57.0432863" lon="-4.8062037"/>
+            <trkpt lat="57.0446800" lon="-4.8038520"/>
+            <trkpt lat="57.0582565" lon="-4.7838106"/>
+            <trkpt lat="57.0638622" lon="-4.7770426"/>
+            <trkpt lat="57.0710550" lon="-4.7666640"/>
+            <trkpt lat="57.0721484" lon="-4.7654627"/>
+            <trkpt lat="57.0759908" lon="-4.7595379"/>
+            <trkpt lat="57.0780248" lon="-4.7571907"/>
+            <trkpt lat="57.0820467" lon="-4.7513311"/>
+            <trkpt lat="57.0844907" lon="-4.7483818"/>
+            <trkpt lat="57.0866537" lon="-4.7473965"/>
+            <trkpt lat="57.0907510" lon="-4.7463880"/>
+            <trkpt lat="57.0931180" lon="-4.7434460"/>
+            <trkpt lat="57.0943921" lon="-4.7423245"/>
+            <trkpt lat="57.0960577" lon="-4.7406843"/>
+            <trkpt lat="57.0972149" lon="-4.7397576"/>
+            <trkpt lat="57.0976000" lon="-4.7397030"/>
+            <trkpt lat="57.0976130" lon="-4.7398980"/>
+            <trkpt lat="57.0982550" lon="-4.7398060"/>
+            <trkpt lat="57.0990030" lon="-4.7398980"/>
+            <trkpt lat="57.0990220" lon="-4.7397030"/>
+            <trkpt lat="57.0999159" lon="-4.7396939"/>
+            <trkpt lat="57.1014736" lon="-4.7400451"/>
+            <trkpt lat="57.1032264" lon="-4.7402343"/>
+            <trkpt lat="57.1049491" lon="-4.7403331"/>
+            <trkpt lat="57.1067757" lon="-4.7407926"/>
+            <trkpt lat="57.1081826" lon="-4.7407208"/>
+            <trkpt lat="57.1120612" lon="-4.7386275"/>
+            <trkpt lat="57.1133087" lon="-4.7384988"/>
+            <trkpt lat="57.1143246" lon="-4.7380450"/>
+            <trkpt lat="57.1154916" lon="-4.7372496"/>
+            <trkpt lat="57.1164682" lon="-4.7356755"/>
+            <trkpt lat="57.1174098" lon="-4.7335106"/>
+            <trkpt lat="57.1184925" lon="-4.7300034"/>
+            <trkpt lat="57.1191964" lon="-4.7284678"/>
+            <trkpt lat="57.1209041" lon="-4.7255654"/>
+            <trkpt lat="57.1220790" lon="-4.7233850"/>
+            <trkpt lat="57.1222030" lon="-4.7234140"/>
+            <trkpt lat="57.1228030" lon="-4.7220580"/>
+            <trkpt lat="57.1229550" lon="-4.7219610"/>
+            <trkpt lat="57.1230940" lon="-4.7217700"/>
+            <trkpt lat="57.1229990" lon="-4.7216100"/>
+            <trkpt lat="57.1244214" lon="-4.7184159"/>
+            <trkpt lat="57.1249781" lon="-4.7163103"/>
+            <trkpt lat="57.1251598" lon="-4.7145593"/>
+            <trkpt lat="57.1252384" lon="-4.7124184"/>
+            <trkpt lat="57.1254457" lon="-4.7102282"/>
+            <trkpt lat="57.1260373" lon="-4.7083697"/>
+            <trkpt lat="57.1267009" lon="-4.7072129"/>
+            <trkpt lat="57.1331595" lon="-4.7000811"/>
+            <trkpt lat="57.1381096" lon="-4.6977098"/>
+            <trkpt lat="57.1398802" lon="-4.6962507"/>
+            <trkpt lat="57.1420847" lon="-4.6939127"/>
+            <trkpt lat="57.1434912" lon="-4.6919396"/>
+            <trkpt lat="57.1442892" lon="-4.6897043"/>
+            <trkpt lat="57.1442560" lon="-4.6869350"/>
+            <trkpt lat="57.1449729" lon="-4.6805481"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>D40058</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>

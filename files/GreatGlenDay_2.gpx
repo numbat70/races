@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="OS Maps - Web" xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+xmlns:gs="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gh="https://graphhopper.com/public/schema/gpx/1.1"
+xmlns:os="https://ordnancesurvey.co.uk/public/schema/route/0.1">
+    <metadata>
+        <name>SUP Great Glen Day 2  (With Portages) V2</name>
+        <desc></desc>
+        <bounds minlat="57.1452488" minlon="-4.6797368" maxlat="57.4791890" maxlon="-4.2435670"/>
+        <extensions>
+            <os:version>2.0</os:version>
+            <os:point lat="57.1452488" lon="-4.6797368" type="start"/>
+            <os:point lat="57.4791890" lon="-4.2498670" type="end"/>
+            <os:activity>OTHER_PADDLING</os:activity>
+            <os:difficulty>DIFFICULT</os:difficulty>
+            <os:paths/>
+            <os:distance>47097.8381225</os:distance>
+        </extensions>
+    </metadata>
+    <wpt lat="57.1452488" lon="-4.6797368"/>
+    <wpt lat="57.1456431" lon="-4.6781097"/>
+    <wpt lat="57.1462112" lon="-4.6767603"/>
+    <wpt lat="57.1462884" lon="-4.6748450"/>
+    <wpt lat="57.1534548" lon="-4.6571482"/>
+    <wpt lat="57.1597215" lon="-4.6462070"/>
+    <wpt lat="57.1764650" lon="-4.6269710"/>
+    <wpt lat="57.1945990" lon="-4.6023550"/>
+    <wpt lat="57.2040590" lon="-4.5909170">
+        <name>Invermoriston</name>
+        <desc></desc>
+    </wpt>
+    <wpt lat="57.2160440" lon="-4.5746060"/>
+    <wpt lat="57.2342710" lon="-4.5467060"/>
+    <wpt lat="57.2592500" lon="-4.5076590">
+        <name>Foyers</name>
+        <desc></desc>
+    </wpt>
+    <wpt lat="57.3241000" lon="-4.4259910">
+        <name>Urquhart Castle</name>
+        <desc></desc>
+    </wpt>
+    <wpt lat="57.3563530" lon="-4.3864950"/>
+    <wpt lat="57.3841950" lon="-4.3611930"/>
+    <wpt lat="57.4040570" lon="-4.3357400"/>
+    <wpt lat="57.4080380" lon="-4.3275660">
+        <name>Lochend</name>
+        <desc></desc>
+    </wpt>
+    <wpt lat="57.4117515" lon="-4.3260893"/>
+    <wpt lat="57.4164737" lon="-4.3253376"/>
+    <wpt lat="57.4245870" lon="-4.3148580"/>
+    <wpt lat="57.4264470" lon="-4.3111970">
+        <name>Weir: Keep Left</name>
+        <desc></desc>
+    </wpt>
+    <wpt lat="57.4277400" lon="-4.3092510"/>
+    <wpt lat="57.4306120" lon="-4.3073860"/>
+    <wpt lat="57.4327080" lon="-4.3034110">
+        <name>Portage::Dochgarroch::200m</name>
+        <desc></desc>
+    </wpt>
+    <wpt lat="57.4328330" lon="-4.3035210"/>
+    <wpt lat="57.4334820" lon="-4.3016880"/>
+    <wpt lat="57.4351361" lon="-4.2955461"/>
+    <wpt lat="57.4367090" lon="-4.2884790"/>
+    <wpt lat="57.4368720" lon="-4.2813990"/>
+    <wpt lat="57.4367780" lon="-4.2770820"/>
+    <wpt lat="57.4374110" lon="-4.2747310"/>
+    <wpt lat="57.4417820" lon="-4.2666250"/>
+    <wpt lat="57.4430900" lon="-4.2650880"/>
+    <wpt lat="57.4461970" lon="-4.2636850"/>
+    <wpt lat="57.4481160" lon="-4.2629770"/>
+    <wpt lat="57.4513880" lon="-4.2636050"/>
+    <wpt lat="57.4533940" lon="-4.2626710"/>
+    <wpt lat="57.4546520" lon="-4.2615220"/>
+    <wpt lat="57.4575078" lon="-4.2568884"/>
+    <wpt lat="57.4585496" lon="-4.2544372"/>
+    <wpt lat="57.4595760" lon="-4.2502210"/>
+    <wpt lat="57.4612005" lon="-4.2457292"/>
+    <wpt lat="57.4625230" lon="-4.2438200"/>
+    <wpt lat="57.4637880" lon="-4.2435670"/>
+    <wpt lat="57.4646530" lon="-4.2439640">
+        <name>Low Bridge::Tomnahurich</name>
+        <desc>Squeeze Under Low Bridge</desc>
+    </wpt>
+    <wpt lat="57.4651460" lon="-4.2442750"/>
+    <wpt lat="57.4663890" lon="-4.2453840"/>
+    <wpt lat="57.4728180" lon="-4.2525470"/>
+    <wpt lat="57.4749583" lon="-4.2529798"/>
+    <wpt lat="57.4764610" lon="-4.2524140"/>
+    <wpt lat="57.4791890" lon="-4.2498670">
+        <name>Finish</name>
+        <desc></desc>
+    </wpt>
+    <trk>
+        <name>SUP Great Glen Day 2  (With Portages) V2</name>
+        <trkseg>
+            <trkpt lat="57.1452488" lon="-4.6797368"/>
+            <trkpt lat="57.1456431" lon="-4.6781097"/>
+            <trkpt lat="57.1462112" lon="-4.6767603"/>
+            <trkpt lat="57.1462884" lon="-4.6748450"/>
+            <trkpt lat="57.1534548" lon="-4.6571482"/>
+            <trkpt lat="57.1597215" lon="-4.6462070"/>
+            <trkpt lat="57.1685060" lon="-4.6362810"/>
+            <trkpt lat="57.1764650" lon="-4.6269710"/>
+            <trkpt lat="57.1945990" lon="-4.6023550"/>
+            <trkpt lat="57.2040590" lon="-4.5909170"/>
+            <trkpt lat="57.2160440" lon="-4.5746060"/>
+            <trkpt lat="57.2342710" lon="-4.5467060"/>
+            <trkpt lat="57.2592500" lon="-4.5076590"/>
+            <trkpt lat="57.3241000" lon="-4.4259910"/>
+            <trkpt lat="57.3563530" lon="-4.3864950"/>
+            <trkpt lat="57.3841950" lon="-4.3611930"/>
+            <trkpt lat="57.4040570" lon="-4.3357400"/>
+            <trkpt lat="57.4080380" lon="-4.3275660"/>
+            <trkpt lat="57.4117515" lon="-4.3260893"/>
+            <trkpt lat="57.4164737" lon="-4.3253376"/>
+            <trkpt lat="57.4245870" lon="-4.3148580"/>
+            <trkpt lat="57.4264470" lon="-4.3111970"/>
+            <trkpt lat="57.4277400" lon="-4.3092510"/>
+            <trkpt lat="57.4306120" lon="-4.3073860"/>
+            <trkpt lat="57.4327080" lon="-4.3034110"/>
+            <trkpt lat="57.4328330" lon="-4.3035210"/>
+            <trkpt lat="57.4332200" lon="-4.3022390"/>
+            <trkpt lat="57.4334820" lon="-4.3016880"/>
+            <trkpt lat="57.4334160" lon="-4.3016040"/>
+            <trkpt lat="57.4351361" lon="-4.2955461"/>
+            <trkpt lat="57.4367090" lon="-4.2884790"/>
+            <trkpt lat="57.4368720" lon="-4.2813990"/>
+            <trkpt lat="57.4367780" lon="-4.2770820"/>
+            <trkpt lat="57.4374110" lon="-4.2747310"/>
+            <trkpt lat="57.4417820" lon="-4.2666250"/>
+            <trkpt lat="57.4430900" lon="-4.2650880"/>
+            <trkpt lat="57.4461970" lon="-4.2636850"/>
+            <trkpt lat="57.4481160" lon="-4.2629770"/>
+            <trkpt lat="57.4513880" lon="-4.2636050"/>
+            <trkpt lat="57.4533940" lon="-4.2626710"/>
+            <trkpt lat="57.4546520" lon="-4.2615220"/>
+            <trkpt lat="57.4575078" lon="-4.2568884"/>
+            <trkpt lat="57.4585496" lon="-4.2544372"/>
+            <trkpt lat="57.4595760" lon="-4.2502210"/>
+            <trkpt lat="57.4612005" lon="-4.2457292"/>
+            <trkpt lat="57.4625230" lon="-4.2438200"/>
+            <trkpt lat="57.4637880" lon="-4.2435670"/>
+            <trkpt lat="57.4646530" lon="-4.2439640"/>
+            <trkpt lat="57.4651460" lon="-4.2442750"/>
+            <trkpt lat="57.4663890" lon="-4.2453840"/>
+            <trkpt lat="57.4728180" lon="-4.2525470"/>
+            <trkpt lat="57.4749583" lon="-4.2529798"/>
+            <trkpt lat="57.4764610" lon="-4.2524140"/>
+            <trkpt lat="57.4791890" lon="-4.2498670"/>
+            <extensions>
+                <gs:line>
+                    <gs:color>D40058</gs:color>
+                    <gs:opacity>1.0</gs:opacity>
+                    <gs:width>7.0</gs:width>
+                </gs:line>
+            </extensions>
+        </trkseg>
+    </trk>
+</gpx>
