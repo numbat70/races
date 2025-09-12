@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Useful Links Homepage</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .top-section {
+            background-color:  #000066;
+            color: white;
+            height: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .clock-container {
+            text-align: center;
+        }
+        .time {
+            font-size: 7.5rem;
+            margin: 0.5rem;
+        }
+        .date {
+            font-size: 2rem;
+            margin: 0.5rem;
+        }
+        .links-section {
+            background-color: white;
+            padding: 2rem 0;
+            display: flex;
+            align-items: flex-start; /* Align items at the top */
+            justify-content: center;
+            width: 100%;
+            flex-direction: row; /* Arrange items side by side */
+        }
+        .column {
+            width: 40%; /* Adjust column width */
+            padding: 1rem;
+            text-align: left;
+        }
+        .column h2 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        .column a {
+            color: royalblue;
+            text-decoration: none;
+            font-size: 1.25rem;
+            display: block;
+            margin: 0.5rem 0;
+        }
+        .column a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-section">
+        <div class="clock-container">
+            <div class="time" id="time"></div>
+            <div class="date" id="date"></div>
+        </div>
+    </div>
+    <div class="links-section">
+        <div class="column" id="left-column">
+            <h2>User Research</h2>
+            <ul>
+                    <li style="list-style: none;"><a href="https://scotent.sharepoint.com/:l:/s/SE-UserResearch/FOxD2VX6vRhKjmo-EuOkfisBZI5XN-tbwOAKfbunAkAz4Q?nav=Zjk3M2M4ZDEtNzc0ZS00Nzk5LWE3ZmQtMDJmZDQ3ZTJmZjY3" target="_blank">User Research TEAM  Input Research Stats </a></li>
+                    <li style="list-style: none;"><a href="https://scotent.sharepoint.com/sites/SE-UserResearch/Lists/Research%20Stats/2024%20Numbers.aspx" target="_blank">User Research TEAM  Lib_Stats </a></li>
+                    <li style="list-style: none;"><a href="xxx" target="_blank"> </a></li>
+                    <li style="list-style: none;"><a href="" target="_blank"> </a></li>                    
+                    <li style="list-style: none;"><a href="" target="_blank"> </a></li>                    
+                    <li style="list-style: none;"><a href="" target="_blank"> </a></li>                    
+                    <li style="list-style: none;"><a href="" target="_blank"> </a></li>      
+                </ul>
+
+            <h2SUP Races</h2>
+                <ul>
+                    <li style="list-style: none;"><a href="https://www.google.com/maps/d/viewer?mid=1UYmjhp9JzyqnHpTjtGwTkSpsoSpODXdB&femb=1&ll=53.09714831409038%2C5.676567450000003&z=10" target="_blank">11 Cities Google Map </a></li>                    
+                    <li style="list-style: none;"><a href="" target="_blank"> </a></li>                    
+                    <li style="list-style: none;"><a href="" target="_blank"> </a></li>                    
+                    <li style="list-style: none;"><a href="" target="_blank"> </a></li>        
+                </ul>    
+
+            <h2>SUP Other</h2>
+                <ul>
+                  <li style="list-style: none;"><a href="" target="_blank"> </a></li>                    
+                    <li style="list-style: none;"><a href="" target="_blank"> </a></li>                    
+                    <li style="list-style: none;"><a href="" target="_blank"> </a></li>                    
+                    <li style="list-style: none;"><a href="" target="_blank"> </a></li>       
+                </ul>
+
+        </div>
+        <div class="column" id="right-column">
+            
+            <h2>xxx</h2>
+                <ul>
+                    <li style="list-style: none;"><a href="https://scotentsd.github.io" target="_blank">Github </a></li>
+                    <li style="list-style: none;"><a href="#" target="_blank"> </a></li>
+                
+                </ul>
+
+            <h2>Tools</h2>
+                <ul>
+                <li style="list-style: none;"><a href="https://vscode.dev/" target="_blank">VS Code (Online)</a></li>
+                     <li style="list-style: none;"><a href="" target="_blank"> </a></li>                    
+                    <li style="list-style: none;"><a href="" target="_blank"> </a></li>                    
+                    <li style="list-style: none;"><a href="" target="_blank"> </a></li>                    
+                    <li style="list-style: none;"><a href="" target="_blank"> </a></li>        
+                </ul>
+
+            <h2>Logistics</h2>
+                <ul>
+                    <li style="list-style: none;"><a href="https://www.thetrainline.com" target="_blank"> Train Times</a></li>
+                    <li style="list-style: none;"><a href="" target="_blank"> </a></li>                    
+                    <li style="list-style: none;"><a href="" target="_blank"> </a></li>                    
+                    <li style="list-style: none;"><a href="" target="_blank"> </a></li>                    
+                    <li style="list-style: none;"><a href="" target="_blank"> </a></li>      
+    
+                </ul>
+
+        </div>
+
+
+<!--                 <li style="list-style: none;"><a href="#" target="_blank"> </a></li>      -->
+
+    </div>
+
+    <script>
+        function updateClock() {
+            const now = new Date();
+
+            // Format time
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+
+            // Format date
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            const date = now.toLocaleDateString(undefined, options);
+
+            // Update HTML elements
+            document.getElementById('time').textContent = `${hours}:${minutes}:${seconds}`;
+            document.getElementById('date').textContent = date;
+        }
+
+        setInterval(updateClock, 1000);
+        updateClock();
+    </script>
+</body>
+</html>
