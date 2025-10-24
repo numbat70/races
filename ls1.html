@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Loch SUP — Knowledge Graph (JSON-LD)</title>
+  <meta name="description" content="Embedded JSON-LD knowledge graph for lochsup.co.uk covering organization, place, courses, club, event, book, and blog articles." />
+  
+  <!-- JSON-LD Knowledge Graph -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SportsOrganization",
+        "@id": "https://lochsup.co.uk/#org",
+        "name": "Loch SUP",
+        "url": "https://lochsup.co.uk/",
+        "slogan": "Learn – Improve – Race",
+        "description": "SUP school, performance training, and Scotland’s only SUP racing club.",
+        "sameAs": [
+          "https://www.facebook.com/LochSUP"
+        ]
+      },
+      {
+        "@type": "Place",
+        "@id": "https://lochsup.co.uk/#place",
+        "name": "Castle Semple Visitor Centre and Country Park",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Lochlip Road",
+          "addressLocality": "Lochwinnoch",
+          "addressRegion": "Renfrewshire",
+          "postalCode": "PA12 4EA",
+          "addressCountry": "GB"
+        },
+        "url": "https://clydemuirshiel.co.uk/visitor-centres/castle-semple/"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://lochsup.co.uk/learn#course",
+        "name": "BSUPA Level 1 \u201cReady to Ride\u201d",
+        "description": "Beginner SUP course covering safety, paddling technique, turns and self-rescue. 2-hour flat water session; equipment included.",
+        "provider": { "@id": "https://lochsup.co.uk/#org" },
+        "courseMode": "in-person",
+        "timeRequired": "PT2H",
+        "isAccessibleForFree": false,
+        "url": "https://lochsup.co.uk/learn"
+      },
+      {
+        "@type": "Course",
+        "@id": "https://lochsup.co.uk/improve#course",
+        "name": "BSUPA \u201cReady to Race\u201d",
+        "description": "Skills-focused SUP racing introduction covering key race scenarios, technique and efficiency.",
+        "provider": { "@id": "https://lochsup.co.uk/#org" },
+        "courseMode": "in-person",
+        "url": "https://lochsup.co.uk/improve"
+      },
+      {
+        "@type": "SportsClub",
+        "@id": "https://lochsup.co.uk/race#club",
+        "name": "Loch SUP Racing Club",
+        "sport": "Stand Up Paddleboarding",
+        "url": "https://lochsup.co.uk/race",
+        "memberOf": { "@id": "https://lochsup.co.uk/#org" },
+        "location": { "@id": "https://lochsup.co.uk/#place" },
+        "description": "Open to competent paddlers, including juniors. Training at Castle Semple Loch (Lochwinnoch); mid-week with winter moving to weather-dependent weekends."
+      },
+      {
+        "@type": "SportsEvent",
+        "@id": "https://lochsup.co.uk/#race-2025-05-25",
+        "name": "Loch SUP Race \u2013 25 May 2025",
+        "startDate": "2025-05-25",
+        "eventStatus": "https://schema.org/EventCompleted",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": { "@id": "https://lochsup.co.uk/#place" },
+        "organizer": { "@id": "https://lochsup.co.uk/#org" },
+        "url": "https://www.webscorer.com/",
+        "description": "Community SUP race with juniors participating; results hosted on Webscorer and recap video on YouTube."
+      },
+      {
+        "@type": "Book",
+        "@id": "https://lochsup.co.uk/book#journal",
+        "name": "SUP Training Journal",
+        "url": "https://lochsup.co.uk/book",
+        "author": { "@type": "Organization", "name": "Loch SUP" },
+        "about": "Training planning and progress, toolkit (mental techniques), and session journaling.",
+        "dateModified": "2025-10-24"
+      },
+      {
+        "@type": "Article",
+        "@id": "https://lochsup.co.uk/blog#strength-training",
+        "headline": "Strength Training",
+        "datePublished": "2024-02-28",
+        "dateModified": "2024-04-18",
+        "author": { "@type": "Person", "name": "supadmin" },
+        "articleSection": "Body",
+        "url": "https://lochsup.co.uk/blog"
+      },
+      {
+        "@type": "Article",
+        "@id": "https://lochsup.co.uk/blog#self-sabotage",
+        "headline": "Self Sabotage",
+        "datePublished": "2023-11-29",
+        "dateModified": "2024-02-27",
+        "author": { "@type": "Person", "name": "Martin Kerr" },
+        "articleSection": "Body / Mindset / Quick-Wins / Racing",
+        "url": "https://lochsup.co.uk/blog"
+      },
+      {
+        "@type": "Article",
+        "@id": "https://lochsup.co.uk/blog#sup-race-pacing",
+        "headline": "SUP RACE PACING",
+        "datePublished": "2023-05-06",
+        "author": { "@type": "Person", "name": "Martin Kerr" },
+        "articleSection": "Racing",
+        "url": "https://lochsup.co.uk/blog"
+      },
+      {
+        "@type": "Article",
+        "@id": "https://lochsup.co.uk/blog#what-is-sup-racing",
+        "headline": "What is SUP Racing",
+        "datePublished": "2023-05-02",
+        "dateModified": "2024-02-28",
+        "author": { "@type": "Person", "name": "supadmin" },
+        "articleSection": "Racing",
+        "url": "https://lochsup.co.uk/blog"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Helvetica,Arial,sans-serif;line-height:1.5;margin:0;padding:2rem;background:#fff;color:#111}
+    header{border-bottom:1px solid #e5e7eb;margin-bottom:1.25rem}
+    h1{font-size:1.4rem;margin:0 0 .75rem}
+    code,pre{font-family:ui-monospace,SFMono-Regular,Consolas,Monaco,Menlo,monospace}
+    .hint{background:#f9fafb;border:1px solid #e5e7eb;border-radius:.5rem;padding:1rem}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Loch SUP — Embedded JSON-LD Knowledge Graph</h1>
+  </header>
+  <main>
+    <p>The JSON-LD knowledge graph for <a href="https://lochsup.co.uk/" target="_blank" rel="noopener">lochsup.co.uk</a> is embedded in the <code>&lt;head&gt;</code> as a <code>&lt;script type="application/ld+json"&gt;</code> block. Search engines and knowledge engines can parse it; regular visitors won’t see it.</p>
+    <div class="hint">
+      <strong>Tip:</strong> Place this file at any URL (or copy the <code>&lt;script&gt;</code> into existing pages). Validate with Google’s <em>Rich Results Test</em> or Schema.org validator.
+    </div>
+  </main>
+</body>
+</html>
